@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Document</title>
+	<title>Homepage</title>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
 	<link href="https://fonts.googleapis.com/css?family=Poppins:400,500,700,900" rel="stylesheet">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
@@ -150,72 +150,6 @@
 	</div>
 </div>		
 </nav>
-
-<!-- CATEGORY -->
-<!-- <section id="category">
-	<div class="container">
-		<div class="row">
-			<div class="col-md-4">
-				<div class="category-pills">
-			<ul class="nav nav-pills nav-stacked">
-			  <li class="active"><a href="#">Handicraft</a></li>
-			  <li><a href="#">Art</a></li>
-			  <li><a href="#">Clothes</a></li>
-			  <li><a href="#">Statue</a></li>
-			  <li><a href="#">Stones</a></li>
-			  <li><a href="#">Utilities</a></li>
-			  <li><a href="#">Jewellery</a></li>
-			  <li><a href="#">Glass Items</a></li>
-			  <li><a href="#">View more...</a></li>
-			</ul>
-				</div>
-			</div>
-			<div class="col-md-8">
-				<div class="banner">
-					<img class="img-responsive" src="http://www.handcraftsofnepal.com/wp-content/uploads/2018/02/nepal.jpg" alt="">
-				</div>
-			</div>
-		</div>
-	</div>
-
-</section>
-
-<section id="category">
-	<div class="container">
-		<div class="row">
-			<div class="col-md-3">
-				<div class="fproduct">
-					<div class="product-img">
-						<img src="http://www.nepalartshop.com/hempshoes/big/11.jpg" class="img-responsive" alt="">
-					</div>
-					<div class="product-detail-left pull-left">
-						<ul class="list-unstyled">
-							<li><h5>NPR.1000</h5></li>
-							<li><h4>Handmade Slippers</h4></li>
-							<li><span><i class="fas fa-heart"></i></span></li>
-						</ul>
-					</div>
-
-					<div class="product-detail-right pull-right">	
-					<ul class='list-unstyled'>
-						<li><span><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span></li>
-						<li><a href="">View More..</a></li>
-						<li>
-							<div class="product-cart">
-								<h5><span><i class="fas fa-heart"></i></span>Add to cart</h5>
-							</div>
-						</li>
-					</ul>
-					</div>
-				</div>	
-			</div>
-			<div class="col-md-3"></div>
-			<div class="col-md-3"></div>
-			<div class="col-md-3"></div>
-		</div>
-	</div>
-</section> -->
-
 
 <section id="category">
 	<div class="container">
