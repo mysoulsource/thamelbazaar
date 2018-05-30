@@ -10,8 +10,7 @@
 	<link rel="stylesheet" type="text/css" href="./css/phSlideshow.css" />
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="css/main.css">
-	<link rel="stylesheet" href="css/product.css">
-	<link rel="stylesheet" href="css/order.css">
+	<link rel="stylesheet" href="css/upload.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
@@ -82,11 +81,11 @@
 
 		    <!-- Modal content-->
 		    <div class="modal-content">
-		    <!--   <div class="modal-header"> -->
+		      <div class="modal-header">
 		        <button type="button" class="close" data-dismiss="modal">&times;</button>
 		        <h4 class="modal-title">Get Link in your email</h4>
-		  <!--     </div> --><!-- 
-		      <div class="modal-body"> -->
+		      </div>
+		      <div class="modal-body">
 		        <form action="">
 		        	<div class="form-group">
 		        		<input type="email" class="form-control" placeholder="Enter your email id here">
@@ -95,10 +94,10 @@
 		        		<input type="submit" class="form-control" data-dismiss="modal">
 		        	</div>
 		        </form>
-		   <!--    </div> -->
-		      <!-- <div class="modal-footer"> -->
+		      </div>
+		      <div class="modal-footer">
 		        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-		    <!--   </div> -->
+		      </div>
 		    </div>
 
 		  </div>
@@ -153,145 +152,113 @@
 </div>		
 </nav>
 
-<section id="product-select">
-	<div class="container-fluid">
+<div id="product-upload">
+	<div class="container">
 		<div class="row">
-			<div class="col-md-9">
-				<div class="table-responsive">
-				<table class="table table-bordered">
-					<tr>
-						<th>ITEM</th>
-						<th>DESCRIPTION</th>
-						<th>QUANTITY</th>
-						<th>Rate</th>
-						<th style="min-width:150px">PRICE</th>
-						<th></th>
-					</tr>
-					<tr>
-						<td>
-							<img src="https://www.imartnepal.com/images/Untitled1.jpg" alt="">
-						</td>
-						<td>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</td>
-						<td>
-							<div class="center">
-								<div class="input-group">
-						          <span class="input-group-btn">
-						              <button type="button" class="btn btn-default btn-number btn-sub" disabled="disabled" data-type="minus" data-field="quant[1]">
-						                  <span class="glyphicon glyphicon-minus"></span>
-						              </button>
-						          </span>
-						          <input type="text" name="quant[1]" class="form-control input-number" value="1" min="1" max="10">
-						          <span class="input-group-btn">
-						              <button type="button" class="btn btn-default btn-number btn-add" data-type="plus" data-field="quant[1]">
-						                  <span class="glyphicon glyphicon-plus"></span>
-						              </button>
-						          </span>
-						      </div>
-							</div>
-						</td>
-						<td><div class="rate">
-							<h3>$<span>49.98</span></h3>
-						</div></td>
-						<td>
-							<div class="price">
-								<h3>$ <span>49</span></h3>
-							</div>
-						</td>
-						<td>
-							<a href="/link-to/whatever-address/" id="cancel" name="cancel" class="btn btn-default">Cancel</a>
-						</td>
-					</tr>
-					<tr>
-						<td>
-							<img src="https://www.imartnepal.com/images/Untitled1.jpg" alt="">
-						</td>
-						<td>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</td>
-						<td>
-							<div class="center">
-								<div class="input-group">
-						          <span class="input-group-btn">
-						              <button  type="button" class="btn btn-default btn-number btn-sub" disabled="disabled" data-type="minus" data-field="quant[1]">
-						                  <span class="glyphicon glyphicon-minus"></span>
-						              </button>
-						          </span>
-						          <input type="text" name="quant[1]" class="form-control input-number" value="1" min="1" max="10">
-						          <span class="input-group-btn">
-						              <button type="button" class="btn btn-default btn-number btn-add" data-type="plus" data-field="quant[1]">
-						                  <span class="glyphicon glyphicon-plus"></span>
-						              </button>
-						          </span>
-						      </div>
-							</div>
-						</td>
-						<td><div class="rate">
-							<h3>$<span>1</span></h3>
-						</div></td>
-						<td>
-							<div class="price">
-								<h3>$ <span>1</span></h3>
-							</div>
-						</td>
-						<td>
-							<a href="/link-to/whatever-address/" id="cancel" name="cancel" class="btn btn-default">Cancel</a>
-						</td>
-					</tr>
-					<tr>
-						<td>
-							<img src="https://www.imartnepal.com/images/Untitled1.jpg" alt="">
-						</td>
-						<td>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</td>
-						<td>
-							<div class="center">
-								<div class="input-group">
-						          <span class="input-group-btn">
-						              <button type="button" class="btn btn-default btn-number btn-sub" disabled="disabled" data-type="minus" data-field="quant[1]">
-						                  <span class="glyphicon glyphicon-minus"></span>
-						              </button>
-						          </span>
-						          <input type="text" name="quant[1]" class="form-control input-number" value="1" min="1" max="10">
-						          <span class="input-group-btn">
-						              <button type="button" class="btn btn-default btn-number btn-add" data-type="plus" data-field="quant[1]">
-						                  <span class="glyphicon glyphicon-plus"></span>
-						              </button>
-						          </span>
-						      </div>
-							</div>
-						</td>
-						<td><div class="rate">
-							<h3>$<span>2</span></h3>
-						</div></td>
-						<td>
-							<div class="price">
-								<h3>$ <span>2</span></h3>
-							</div>
-						</td>
-						<td>
-							<a href="/link-to/whatever-address/" id="cancel" name="cancel" class="btn btn-default">Cancel</a>
-						</td>
-					</tr>
-				</table>	
+			<div class="col-md-12">
+				<div class="heading">
+					<h1>Product Details</h1>
+
 				</div>
 			</div>
-			<div class="col-md-3">
-				<div class="cost-wrapper">
-					<h1 class="text-center">Order Summary</h1>
-					<div class="subtotal-cost">
-						<p class="pull-left">Subtotal</p>
-						<p id="subtotal" class="pull-right">$<span>98.90</span></p>
-						<div class="clearfix"></div>
-					</div>
-					<div class="total-cost">
-						<p class="pull-left">Total</p>
-						<p class="pull-right">$98.90</p>
-						<div class="clearfix"></div>
-					</div>
-					<a href="checkout.php"><button class="btn btn-success form-control">Check Out</button></a>
+
+		</div>
+		<div class="row">
+			<div class="col-md-5">
+				<div class="detail-wrapper">
+					<form action="" class="form">
+						<div class="form-group">
+							<label for="name">
+								Name of the product
+							</label>
+							<input type="text" class="form-control" name="name">
+						</div>
+						<div class="form-group">
+							<label for="category form-control">Select Product Category</label>
+							<select name="category" id="">
+								<option value="">Handicraft</option>
+								<option value="">Arts</option>
+							</select>
+						</div>
+						<div class="form-group">
+							<label for="Description">
+								Description of the product
+							</label>
+							<textarea class="form-control" rows="4" cols="10"></textarea>
+						</div>
+						<div class="input-group form-group">
+							<label for="">Price of the product</label>
+							<span class="input-group-addon">NPR</span>
+							<input type="number" class="form-control">
+						</div>
+						<div class="form-group">
+							<label for="Size">
+								Size of the product
+							</label>
+							<input type="text" class="form-control">
+						</div>
+						<div class="form-group">
+							<label for="features">
+								Features of the product
+							</label>
+							<textarea class="form-control" rows="4" cols="10"></textarea>
+						</div>
+						
+
+
+
 				</div>
 			</div>
 		</div>
-	</div>
-</section>
+		<div class="row">
+			<div class="col-md-12">
+				<div id="page">
+							<div class="wrap-custom-file">
+							    <input type="file" name="image1" id="image1" accept=".gif, .jpg, .png" />
+							    <label  for="image1">
+							      <span>Select Image One</span>
+							      <i class="fa fa-plus-circle"></i>
+							    </label>
+							  </div>
 
+							  <div class="wrap-custom-file">
+							    <input type="file" name="image2" id="image2" accept=".gif, .jpg, .png" />
+							    <label  for="image2">
+							      <span>Select Image Two</span>
+							      <i class="fa fa-plus-circle"></i>
+							    </label>
+							  </div>
+
+							  <div class="wrap-custom-file">
+							    <input type="file" name="image3" id="image3" accept=".gif, .jpg, .png" />
+							    <label  for="image3">
+							      <span>Select Image Three</span>
+							      <i class="fa fa-plus-circle"></i>
+							    </label>
+							  </div>
+
+							   <div class="wrap-custom-file">
+							    <input type="file" name="image4" id="image4" accept=".gif, .jpg, .png" />
+							    <label  for="image4">
+							      <span>Select Image Four</span>
+							      <i class="fa fa-plus-circle"></i>
+							    </label>
+							  </div>
+							
+							</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-5">
+				
+					<div class="form-group">
+							<input type="submit" class="form-control">
+						</div>
+				</form>
+			</div>
+		</div>
+	</div>
+</div>
 
 
 <!-- starting of footer -->
@@ -378,21 +345,36 @@
 });
 
 </script>
-<script type="text/javascript">
-
-	phSlideShow.slideshowInit(
-		".slideshow", 	//element
-		3000, 			//speed
-		true, 			//show controls
-		true			//show captions (html title tag)
-	);
-
-</script>
-<script src="js/jquery.chameleon.js"></script>
-<script src="modes/chameleonBlur.js"></script>
-<script src="js/review.js"></script>
 <script src="js/main.js"></script>
-<script src="js/order.js"></script>
+<script>
+$('input[type="file"]').each(function(){
+  // Refs
+  var $file = $(this),
+      $label = $file.next('label'),
+      $labelText = $label.find('span'),
+      labelDefault = $labelText.text();
+
+  // When a new file is selected
+  $file.on('change', function(event){
+    var fileName = $file.val().split( '\\' ).pop(),
+        tmppath = URL.createObjectURL(event.target.files[0]);
+    //Check successfully selection
+    if( fileName ){
+      $label
+        .addClass('file-ok')
+        .css('background-image', 'url(' + tmppath + ')');
+      $labelText.text(fileName);
+    }else{
+      $label.removeClass('file-ok');
+      $labelText.text(labelDefault);
+    }
+  });
+
+// End loop of file input elements
+});
+</script>
+
+
 </body>
 </html>
 

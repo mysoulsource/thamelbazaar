@@ -153,6 +153,7 @@
 </nav>
 
 <section id="display-product">
+	
 	<div class="container">
 		<!-- <div class="row">
 			<div class="product-name"><h1 class="text-uppercase text-center"> HomeMade Lantern</h1></div>
@@ -173,7 +174,13 @@
 				
 
 			</div>
-		</div> --><div class="card">
+		</div> -->
+		<div class="card">
+			<ul class="breadcrumb">
+			  <li><a href="#">Home</a></li>
+			  <li><a href="#">Library</a></li>
+			  <li class="active">Data</li>
+			</ul>
 			<div class="container-fliud">
 				<div class="wrapper row">
 					<div class="preview col-md-6">
@@ -277,6 +284,7 @@
 				</div>
 			</div>
 		</div>
+		
 		<div class="row">
 			<div class="col-md-12">
 			<h2>Similar <b>Products</b></h2>
@@ -336,7 +344,7 @@
 						<div class="col-sm-3">
 							<div class="thumb-wrapper">
 								<div class="img-box">
-									<img src="/examples/images/products/macbook-air.jpg" class="img-responsive img-fluid" alt="">
+									<img src="http://www.newbusinessage.com/userfiles/images/min1.jpg" class="img-responsive img-fluid" alt="">
 								</div>
 								<div class="thumb-content">
 									<h4>Macbook Air</h4>
@@ -357,7 +365,7 @@
 						<div class="col-sm-3">
 							<div class="thumb-wrapper">
 								<div class="img-box">
-									<img src="/examples/images/products/nikon.jpg" class="img-responsive img-fluid" alt="">
+									<img src="https://sc01.alicdn.com/kf/HTB1YaEGLpXXXXcZXXXXq6xXFXXX8/Nepal-handicraft-wholesale.jpg" class="img-responsive img-fluid" alt="">
 								</div>
 								<div class="thumb-content">
 									<h4>Nikon DSLR</h4>
@@ -382,7 +390,7 @@
 						<div class="col-sm-3">
 							<div class="thumb-wrapper">
 								<div class="img-box">
-									<img src="/examples/images/products/play-station.jpg" class="img-responsive img-fluid" alt="">
+									<img src="https://sc01.alicdn.com/kf/HTB1BS.3KVXXXXabaXXXq6xXFXXX1/Gifts-Handicrafts.jpg" class="img-responsive img-fluid" alt="">
 								</div>
 								<div class="thumb-content">
 									<h4>Sony Play Station</h4>
@@ -403,7 +411,7 @@
 						<div class="col-sm-3">
 							<div class="thumb-wrapper">
 								<div class="img-box">
-									<img src="/examples/images/products/macbook-pro.jpg" class="img-responsive img-fluid" alt="">
+									<img src="https://i0.wp.com/www.ktm2day.com/wp-content/uploads/2012/08/handicraftnp.jpg?resize=550%2C352https://i0.wp.com/www.ktm2day.com/wp-content/uploads/2012/08/handicraftnp.jpg?resize=550%2C352" class="img-responsive img-fluid" alt="">
 								</div>
 								<div class="thumb-content">
 									<h4>Macbook Pro</h4>
@@ -424,7 +432,7 @@
 						<div class="col-sm-3">
 							<div class="thumb-wrapper">
 								<div class="img-box">
-									<img src="/examples/images/products/speaker.jpg" class="img-responsive img-fluid" alt="">
+									<img src="https://nepal1craft.com/images/coolbaby/layouts/kids/woolen-products-nepal.jpg" class="img-responsive img-fluid" alt="">
 								</div>
 								<div class="thumb-content">
 									<h4>Bose Speaker</h4>
@@ -445,7 +453,7 @@
 						<div class="col-sm-3">
 							<div class="thumb-wrapper">
 								<div class="img-box">
-									<img src="/examples/images/products/galaxy.jpg" class="img-responsive img-fluid" alt="">
+									<img src="http://3.bp.blogspot.com/-nzpkb7kPAUs/UHuwublEMJI/AAAAAAAABUg/aEYeAf-c2w4/s1600/%252Bnepali%2B%252B%2BHandicraft.jpg" class="img-responsive img-fluid" alt="">
 								</div>
 								<div class="thumb-content">
 									<h4>Samsung Galaxy S8</h4>
@@ -470,7 +478,7 @@
 						<div class="col-sm-3">
 							<div class="thumb-wrapper">
 								<div class="img-box">
-									<img src="/examples/images/products/iphone.jpg" class="img-responsive img-fluid" alt="">
+									<img src="http://www.tradenep.com/wp-content/uploads/2018/03/m-handicrafft.jpg" class="img-responsive img-fluid" alt="">
 								</div>
 								<div class="thumb-content">
 									<h4>Apple iPhone</h4>
@@ -491,7 +499,7 @@
 						<div class="col-sm-3">
 							<div class="thumb-wrapper">
 								<div class="img-box">
-									<img src="/examples/images/products/canon.jpg" class="img-responsive img-fluid" alt="">
+									<img src="https://comps.canstockphoto.com/traditional-nepalese-handicraft-stock-photo_csp4495882.jpg" class="img-responsive img-fluid" alt="">
 								</div>
 								<div class="thumb-content">
 									<h4>Canon DSLR</h4>
@@ -512,7 +520,7 @@
 						<div class="col-sm-3">
 							<div class="thumb-wrapper">
 								<div class="img-box">
-									<img src="/examples/images/products/pixel.jpg" class="img-responsive img-fluid" alt="">
+									<img src="http://www.deephandicraft.com/content/images/thumbs/0000102_wooden-elephant-8-inches-with-net-like-pores_300.jpeg" class="img-responsive img-fluid" alt="">
 								</div>
 								<div class="thumb-content">
 									<h4>Google Pixel</h4>
@@ -533,7 +541,7 @@
 						<div class="col-sm-3">
 							<div class="thumb-wrapper">
 								<div class="img-box">
-									<img src="/examples/images/products/watch.jpg" class="img-responsive img-fluid" alt="">
+									<img src="http://www.deephandicraft.com/content/images/thumbs/0000143_wooden-12-inches-round-stool_300.jpeg" class="img-responsive img-fluid" alt="">
 								</div>
 								<div class="thumb-content">
 									<h4>Apple Watch</h4>
