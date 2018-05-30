@@ -15,8 +15,10 @@ $('.btn-number').click(function(e){
             
             if(currentVal > input.attr('min')) {
                 input.val(currentVal - 1).change();
-                price.html(rate * (currentVal - 1));
-                 $("#subtotal span").html(sub - rate);
+                var nprice = rate * (currentVal -1);
+                price.html(nprice.toFixed(2));
+                var stotal = sub-rate; 
+                 $("#subtotal span").html(stotal.toFixed(2));
                 
             } 
             if(parseFloat(input.val()) == input.attr('min')) {
@@ -27,8 +29,10 @@ $('.btn-number').click(function(e){
 
             if(currentVal < input.attr('max')) {
                 input.val(currentVal + 1).change();
-                price.html(rate * (currentVal + 1));
-                $("#subtotal span").html(sub + rate);	
+                var nprice = rate * (currentVal +1);
+                price.html(nprice.toFixed(2));
+                 var stotal = sub+rate; 
+                 $("#subtotal span").html(stotal.toFixed(2));
             }
             if(parseFloat(input.val()) == input.attr('max')) {
                 $(this).attr('disabled', true);
@@ -47,7 +51,7 @@ $('.btn-number').click(function(e){
 
 
 		$(this).parent().parent().find(".input-number").change(function() {
-			console.log($(this).html());
+			
 			    
 			    minValue =  parseInt($(this).attr('min'));
 			    maxValue =  parseInt($(this).attr('max'));

@@ -5,3 +5,7 @@
 	border: 1px solid #333;
 	padding: 20px 10px;
 }
+#offers{
+	max-width:500px;
+	max-height:500px; 
+}

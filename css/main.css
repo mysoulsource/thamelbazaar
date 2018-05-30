@@ -376,7 +376,7 @@ body .base.close .section-static {
 
 }
 #product{
-	margin-top:20px;
+	margin:20px 0;
 }
 .fproduct{
 	padding: 10px;
@@ -681,10 +681,17 @@ footer .form-control::-webkit-input-placeholder {
 #offers{
 	
 }
-.sidemenu button{
-	padding:20px ;
-background: rgba(66, 232, 244,.8);
-	color:#fff;
+.sidemenu>button{
+	background: rgb(250, 171, 52);
+    color: #fff;
+    transform: rotate(270deg);
+    font-size: 20px;
+    font-weight: 900;
+    width: 120px;
+    height: 60px;
+    position: absolute;
+    left: -30px;
+    border:0;
 }
 
 .btn-product{
@@ -801,6 +808,13 @@ h2::after {
 }
 .carousel .thumb-wrapper {
 	text-align: center;
+
+}
+.carousel .thumb-wrapper img {
+	max-height:120px;
+}
+.carousel .thumb-wrapper:hover {
+	border: 1px solid #333;
 }
 .carousel .thumb-content {
 	padding: 15px;
